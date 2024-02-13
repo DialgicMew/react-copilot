@@ -3,9 +3,35 @@
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
+    align-items: center;
     background-color: green;
     color: white;
     padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .cart-button {
+    background-color: #000000; /* primary color */
+    color: white; /* text color */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  
+  .cart-button:hover {
+    background-color: #536dfe; /* darker shade of primary color */
+    color: white;
   }
 
   

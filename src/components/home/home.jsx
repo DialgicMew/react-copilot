@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ProductList from "../grid/productList";
 import "./home.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -55,6 +56,9 @@ const Home = () => {
     <div>
       <nav className="navbar">
         <h1>Home</h1>
+        <Link to="/cart" className="nav-link">
+          <button className="cart-button">Cart</button>
+        </Link>
       </nav>
       <ProductList products={products} />
     </div>
